@@ -1,0 +1,16 @@
+[user]
+    name = Junwang Zhao
+    email = zhjwpku@gmail.com
+[credential]
+    helper = cache
+[alias]
+    st = status
+    co = checkout
+    ci = commit -s
+    lg = log --graph --format='%C(auto)%h%C(reset) %C(dim white)%an%C(reset) %C(green)%ai%C(reset) %C(auto)%d%C(reset)%n   %s'
+    lg10 = log --graph --pretty=format:'%C(yellow)%h%C(auto)%d%Creset %s %C(white)- %an, %ar%Creset' -10
+    lg20 = log --graph --pretty=format:'%C(yellow)%h%C(auto)%d%Creset %s %C(white)- %an, %ar%Creset' -20
+    lg30 = log --graph --pretty=format:'%C(yellow)%h%C(auto)%d%Creset %s %C(white)- %an, %ar%Creset' -30
+    cob = checkout -b
+    br = branch -vv
+    dh = diff --no-prefix HEAD
