@@ -1,8 +1,6 @@
 [user]
     name = Junwang Zhao
     email = zhjwpku@gmail.com
-[credential]
-    helper = cache
 [alias]
     st = status
     co = checkout
